@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key = "super secret key"
 excel.init_excel(app)
 
-mydb=mysql.connector.connect(host="localhost",user="root",password="vamsi",db="feedback")
+mydb=mysql.connector.connect(host="localhost",user="root",password="password",db="feedback")
 cursor=mydb.cursor()
 
 
